@@ -1,0 +1,89 @@
+body{
+	/*width: 1000px;*/
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+h1{
+	color:orange;
+}
+
+li.line {
+	display: inline;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+a:hover{
+	background-color: #FF8000;
+}
+
+a:link{
+	color: #CC6600; /*orange*/
+	text-decoration: none;
+}
+
+#logo{
+	margin:10px;
+	width:50px;
+
+}
+
+#nav{
+/*	background-image: url("../images/logo2.png");
+	background-size: 15%;
+	background-repeat: no-repeat;*/
+
+	margin:1%;
+	padding:10px;
+	background-color: orange ;
+	padding: 20px;
+}
+
+#footer{
+	margin:1%;
+	padding:10px;
+	background-color: orange;
+/*	width:100%;
+	margin:1%;
+	padding:1%;*/
+}
+
+#project, .projects{
+	background-color: orange;
+	width:31.3%;
+	float:left;
+	margin:1%;
+}
+
+.img1{
+	max-width:98%;
+}
+
+#content{
+	overflow:auto;
+}
+
+.myButton{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.myButton:hover{
+	background-color: yellow;
+}
+
+.myButton:active{
+	background-color: blue;
+}
